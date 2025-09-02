@@ -3,8 +3,8 @@ html, body, #root { height: 100%; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(180deg, #c40000 0%, #F2C6C2 100%);
-  color: #2b2b2b;
+  background: linear-gradient(180deg, #200049 0%, #6c92f8 100%);
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
