@@ -44,10 +44,10 @@ input {
   font-size: 1rem;
   color: #1f1f1f; /*Numeros*/
   background: #FFFFFF;
-  border: 1px solid #E3E6EA;
+  border: 1px solid #ffffff;
   border-radius: 14px;
   outline: none;
-  box-shadow: 0 1px 0 rgba(132, 1, 255, 0.8) inset;
+  box-shadow: 0 1px 0 rgba(132, 1, 255, 0.8) inset; /*Borda dos numeros*/
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.06s;
 }
 
@@ -55,7 +55,7 @@ input::placeholder { color: #98A1AD; }
 
 input:focus {
   border-color: #86A59D;
-  box-shadow: 0 0 0 6px rgba(134,165,157,0.22), 0 1px 0 rgba(255,255,255,0.8) inset;
+  box-shadow: 0 0 0 6px rgba(165, 134, 134, 0.22), 0 1px 0 rgba(255,255,255,0.8) inset;
 }
 
 button {
@@ -64,9 +64,9 @@ button {
   padding: 0 20px;
   font-weight: 900;
   font-size: 1rem;
-  color: #ffffff;
-  background: linear-gradient(90deg, #3806c4 0%, #500450 100%);
-  border: 1px solid #EADAD4;
+  color: #ffffff; /*Cor do calcular*/
+  background: linear-gradient(90deg, #3806c4 0%, #500450 100%); /*Degrade do botão de calcular*/
+  border: 1px solid #000000; /*Borda do Calcular*/
   border-radius: 14px;
   cursor: pointer;
   box-shadow:

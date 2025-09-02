@@ -1,14 +1,14 @@
 .header {
   width: 100%;
-  background: linear-gradient(90deg, #F2B263 0%, #F28585 100%);
-  border: 1px solid #EADAD4;
+  background: linear-gradient(90deg, #63ddf2 0%, rgb(119, 0, 255) 100%); /*degrade do Calculadora IMC*/
+  border: 1px solid #ffffff; /*Borda da calculadora IMC*/
   border-radius: 18px;
   padding: 18px 20px;
   text-align: center;
-  color: #ffffff;
+  color: #ffffff; /*Cor da escrita Calculadora IMC*/
   box-shadow:
     0 0 0 1px rgba(255,255,255,0.35) inset,
-    0 16px 36px rgba(242,133,133,0.28);
+    0 16px 36px rgba(124, 112, 112, 0.28);
   margin: 0 0 16px 0;
   position: relative;
   overflow: hidden;
