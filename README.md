@@ -1,7 +1,9 @@
 # Calculadora IMC - Projeto Acadêmico Fiap
 
-**Aluno:** Luis Gustavo Vasconcelos Costa – RM566023 
+**Aluno:** Luis Gustavo Vasconcelos Costa – RM566023
+
 **Professor Orientador:** Wellington Cidade Silva Tenorio  
+
 **Instituição:** FIAP  
 
 ---
@@ -37,3 +39,4 @@ https://github.com/CP4-Front-Calculadora-IMC/CP4-Calculadora-IMC
 ---
 ## Link do Deploy no Vercel
 https://cp4calculadoimc.vercel.app/
+
