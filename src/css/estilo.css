@@ -1,23 +1,14 @@
 .box {
   width: 820px;
   max-width: 96vw;
-  background: linear-gradient(180deg, #FFFFFF 0%, #FFF6F4 100%);
-  border: 1px solid #EBD9D4;
+  background: linear-gradient(180deg, #0b0f2a 0%, #12163d 100%); /* Degradê da caixa principal */
+  border: 1px solid #1ee7ff; /* Borda neon ciano */
   border-radius: 20px;
   padding: 20px; /* o header já tem padding próprio */
   box-shadow:
-    0 26px 54px rgba(0, 0, 0, 0.12),
-    0 0 0 1px rgba(255,255,255,0.6) inset;
+    0 26px 54px rgba(0, 245, 255, 0.18), /* Glow ciano */
+    0 0 0 1px rgba(255,255,255,0.10) inset;
   position: relative;
-}
-
-.box::before {
-  content: "";
-  position: absolute;
-  top: -7px; left: 20px; right: 20px;
-  height: 10px; border-radius: 10px;
-  background: #ffffff;
-  box-shadow: 0 10px 24px rgba(134,165,157,0.35);
 }
 
 form { display: grid; gap: 16px; margin-top: 6px; }
@@ -25,37 +16,36 @@ form { display: grid; gap: 16px; margin-top: 6px; }
 label {
   display: block;
   font-weight: 700;
-  color: #2b2b2b;
+  color: #eaf1ff; /* Texto */
   margin-bottom: 6px;
   font-size: 0.95rem;
 }
 
 label span {
   font-weight: 400;
-  color: #6f7680; /*(exemplo:80)*/
+  color: #a8b2ff; /* Observação */
   margin-left: 4px;
 }
-
 
 input {
   width: 100%;
   height: 52px;
   padding: 0 16px;
   font-size: 1rem;
-  color: #1f1f1f; /*Numeros*/
-  background: #FFFFFF;
-  border: 1px solid #ffffff;
+  color: #eaf1ff; /* Números */
+  background: #0a0d26;
+  border: 1px solid #7b61ff; /* violeta neon */
   border-radius: 14px;
   outline: none;
-  box-shadow: 0 1px 0 rgba(132, 1, 255, 0.8) inset; /*Borda dos numeros*/
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset; /* Borda interna sutil */
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.06s;
 }
 
-input::placeholder { color: #98A1AD; }
+input::placeholder { color: #7b86c9; }
 
 input:focus {
-  border-color: #86A59D;
-  box-shadow: 0 0 0 6px rgba(165, 134, 134, 0.22), 0 1px 0 rgba(255,255,255,0.8) inset;
+  border-color: #00f5ff;
+  box-shadow: 0 0 0 6px rgba(0, 245, 255, 0.16), 0 1px 0 rgba(255,255,255,0.06) inset;
 }
 
 button {
@@ -64,26 +54,26 @@ button {
   padding: 0 20px;
   font-weight: 900;
   font-size: 1rem;
-  color: #ffffff; /*Cor do calcular*/
-  background: linear-gradient(90deg, #3806c4 0%, #500450 100%); /*Degrade do botão de calcular*/
-  border: 1px solid #000000; /*Borda do Calcular*/
+  color: #0a0d20; /* Texto botão */
+  background: linear-gradient(90deg, #7b61ff 0%, #00f5ff 100%); /* Degradê do botão */
+  border: 1px solid #ffffff; /* Borda do Calcular */
   border-radius: 14px;
   cursor: pointer;
   box-shadow:
-    0 16px 34px rgba(242,178,99,0.32),
-    0 0 0 1px rgba(255,255,255,0.2) inset;
+    0 16px 34px rgba(0,245,255,0.24),
+    0 0 0 1px rgba(255,255,255,0.20) inset;
   transition: transform 0.08s, filter 0.18s, box-shadow 0.18s;
 }
 
 button:hover {
   filter: brightness(1.06);
   box-shadow:
-    0 20px 40px rgba(242,133,133,0.36),
+    0 20px 40px rgba(123,97,255,0.30),
     0 0 0 1px rgba(255,255,255,0.25) inset;
 }
 
 button:active { transform: translateY(1px); }
-button:focus { outline: none; box-shadow: 0 0 0 6px rgba(242, 99, 99, 0.24); }
+button:focus { outline: none; box-shadow: 0 0 0 6px rgba(123, 97, 255, 0.24); }
 
 .results-area { margin-top: 24px; }
 

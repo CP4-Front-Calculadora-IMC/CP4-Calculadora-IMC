@@ -1,14 +1,14 @@
 .tabela {
   margin: 18px auto;
   padding: 18px;
-  background: #FFFFFF;
-  border: 1px solid #EBD9D4;
+  background: #0b0f2a; /* Cor dentro dos quadrados de classificação */
+  border: 1px solid #1ee7ff; /* Borda dos quadrados de classificação */
   border-radius: 18px;
-  box-shadow: 0 16px 36px rgba(0,0,0,0.08);
+  box-shadow: 0 16px 36px rgba(0,0,0,0.28);
   max-width: 820px;
   width: 96%;
   text-align: center;
-  color: #2b2b2b;
+  color: #eaf1ff;
 }
 
 .tabela h2 {
@@ -24,10 +24,10 @@
   border-radius: 999px;
   font-weight: 900;
   font-size: 2rem;
-  color: #F28585;
-  background: #FCEEEF;
-  border: 1px solid #F2C6C2;
-  box-shadow: 0 6px 16px rgba(242,134,134,0.16);
+  color: #0a0d20;
+  background: linear-gradient(90deg, #7b61ff 0%, #00f5ff 100%);
+  border: 1px solid #ffffff;
+  box-shadow: 0 6px 16px rgba(0,245,255,0.22);
 }
 
 .tabela table {
@@ -40,25 +40,25 @@
 }
 
 .tabelaHeader th {
-  background: #86A59D;
-  color: #ffffff;
+  background: #11163c; /* Cabeçalho da tabela */
+  color: #ffffff; /* Cor das letras */
   padding: 12px;
   font-weight: 800;
   font-size: 0.98rem;
-  border-right: 1px solid rgba(255,255,255,0.24);
+  border-right: 1px solid rgba(255,255,255,0.10);
 }
 .tabelaHeader th:last-child { border-right: none; }
 
 .tabelaBody td {
-  border: 1px solid #EBD9D4;
+  border: 1px solid #223056;
   padding: 12px;
   font-size: 1rem;
-  color: #374151;
-  background: #FFFFFF;
+  color: #d7defe;
+  background: #0d1230;
 }
 
-.tabelaBody tr:nth-child(even) td { background: #F7F1EB; }
-.tabelaBody tr:hover td { background: #FFF8F1; }           
+.tabelaBody tr:nth-child(even) td { background: rgba(123,97,255,0.08); }
+.tabelaBody tr:hover td { background: rgba(0,245,255,0.10); }
 
 @media (max-width: 1024px) {
   .tabela h2 { font-size: 1.45rem; }

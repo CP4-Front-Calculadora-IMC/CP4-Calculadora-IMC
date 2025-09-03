@@ -1,24 +1,25 @@
 .header {
   width: 100%;
-  background: linear-gradient(90deg, #63ddf2 0%, rgb(119, 0, 255) 100%); /*degrade do Calculadora IMC*/
-  border: 1px solid #ffffff; /*Borda da calculadora IMC*/
+  background: linear-gradient(90deg, #0f1238 0%, #0a0d2b 100%); /* Degradê do Calculadora IMC */
+  border: 1px solid #1ee7ff; /* Borda neon */
   border-radius: 18px;
   padding: 18px 20px;
   text-align: center;
-  color: #ffffff; /*Cor da escrita Calculadora IMC*/
+  color: #ffffff; /* Cor da escrita Calculadora IMC */
   box-shadow:
-    0 0 0 1px rgba(255,255,255,0.35) inset,
-    0 16px 36px rgba(124, 112, 112, 0.28);
+    0 0 0 1px rgba(255,255,255,0.15) inset,
+    0 16px 36px rgba(0, 245, 255, 0.20);
   margin: 0 0 16px 0;
   position: relative;
   overflow: hidden;
 }
 
+/* highlight superior mantendo seu ::after */
 .header::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255,255,255,0.35), transparent 55%);
+  background: linear-gradient(180deg, rgba(0,245,255,0.28), transparent 55%); /* Luz de cima */
   pointer-events: none;
 }
 
