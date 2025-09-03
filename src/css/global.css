@@ -12,3 +12,19 @@ body {
   overflow-x: hidden;
 }
 
+/*Fundo animado que eu aprendi na internet🤡*/
+body::before {
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(123,97,255,0.35),
+    transparent
+  );
+  background-size: 200% 200%;
+  animation: diagonal 6s linear infinite;
+}
+@keyframes diagonal{
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
